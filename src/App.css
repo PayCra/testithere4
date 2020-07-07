@@ -6,9 +6,11 @@
 }
 
 .main {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 200px;
   min-width: 200px;
-  background: aqua;
+  background: pink;
   width: 50vw;
 }
