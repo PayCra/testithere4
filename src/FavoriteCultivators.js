@@ -14,13 +14,15 @@ class FavoriteCultivators extends Component {
         })
     }
 
+    // key={'Lan Xichen'}
+
     render() {
         return (
             <div>
                 <div className="menu">
                 <a onClick={this.getHandleClick('Nie Huaisang')}>Quinghe</a>
                 <a onClick={this.getHandleClick('Jin Guangyao')}>Lanling</a>
-                <a onClick={this.getHandleClick(<Gusu key={'Lan Xichen'}/>)}>Gusu</a>
+                <a onClick={this.getHandleClick(<Gusu/>)}>Gusu</a>
                 </div>
                 <div className="main">{this.state.displayedString}</div>
             </div>
